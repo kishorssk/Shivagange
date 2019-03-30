@@ -1,0 +1,60 @@
+{
+  "albums": [
+
+    {
+      "id": "album_009",
+      "title": "Śrī Guru Suvarṇamālā",
+      "numOfSongs": 6
+    },
+    {
+      "id": "album_006",
+      "title": "Bhakti Sudhā Taraṅginī - Vol. 1",
+      "numOfSongs": 11
+    },
+    {
+      "id": "album_007",
+      "title": "Bhakti Sudhā Taraṅginī - Vol. 2",
+      "numOfSongs": 7
+    },
+    {
+      "id": "album_008",
+      "title": "Bhakti Sudhā Taraṅginī - Vol. 3",
+      "numOfSongs": 6
+    },
+    {
+      "id": "album_010",
+      "title": "Gurudēvatāstutilaharī",
+      "numOfSongs": 14
+    },
+    {
+      "id": "album_005",
+      "title": "Bhakti Sudhā - Vol. 1",
+      "numOfSongs": 6
+    },
+    {
+      "id": "album_003",
+      "title": "Jagadguru’s Compositions - Vol. 1",
+      "numOfSongs": 6
+    },
+    {
+      "id": "album_004",
+      "title": "Jagadguru’s Compositions - Vol. 2",
+      "numOfSongs": 7
+    },
+    {
+      "id": "album_011",
+      "title": "Homage to Sadāśiva Brahmēndraḷ",
+      "numOfSongs": 15
+    },
+    {
+      "id": "album_001",
+      "title": "Śrī Śāradā Stuti Mañjarī - Vol. 1",
+      "numOfSongs": 9
+    },
+    {
+      "id": "album_002",
+      "title": "Śrī Śāradā Stuti Mañjarī - Vol. 2",
+      "numOfSongs": 16
+    }
+  ]
+}

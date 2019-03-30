@@ -1,0 +1,24 @@
+{
+  "albums": [
+    {
+      "id": "album_001",
+      "title": "Sri Ganapati\nStotram",
+      "numOfSongs": 1
+    },
+    {
+      "id": "album_002",
+      "title": "Sri Subrahmanya\nStotram",
+      "numOfSongs": 1
+    },
+    {
+      "id": "album_003",
+      "title": "Sri Sharadamba\nStotram",
+      "numOfSongs": 1
+    },
+    {
+      "id": "album_004",
+      "title": "Adi Shankaracharya\nSuprabhatam",
+      "numOfSongs": 1
+    }
+  ]
+}

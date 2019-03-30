@@ -1,0 +1,109 @@
+{
+	"info" : {
+		"vocals" : "Sangita Kalanidhi Smt. R. Vedavalli",
+		"director" : "",
+		"producer" : "The Chityala Family; New York",
+		"music" : {
+			"violin" : "Shri. R. K. Shriramkumar",
+			"mridangam" : "Shri. K. Arunprakash"
+		}
+	},
+	"songs" : [
+		{
+			"id" : "song_001",
+			"title" : "Invocatory verse from Śrī Ganēśa Stuti Mañjarī",
+			"writer" : "Śrī Śrī Candraśēkhara Bhāratī Mahāsvāmigaḷ",
+			"duration" : "1:22"
+		},
+		{
+			"id" : "song_002",
+			"title" : "Śrī Śāradāśataślōkī\nVedābhyāsa Jaḍōpi",
+			"writer" : "Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "3:11"
+		},
+		{
+			"id" : "song_003",
+			"title" : "Śrī Śāradāśataślōkī\nKamanīyakavitvadām",
+			"writer" : "Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "4:21"
+		},
+		{
+			"id" : "song_004",
+			"title" : "Śrī Śāradāśataślōkī\nVaṇi Sarasvati",
+			"writer" : "Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "1:03"
+		},
+		{
+			"id" : "song_005",
+			"title" : "Kalāvatī Kamalāsana Yuvatī",
+			"writer" : "",
+			"duration" : "3:43"
+		},
+		{
+			"id" : "song_006",
+			"title" : "Śrī Śāradādaśakam\nGatijitamarālagarvāṃ",
+			"writer" : "Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "1:18"
+		},
+		{
+			"id" : "song_007",
+			"title" : "Sarasvatī Cāyātaraṅgiṇi",
+			"writer" : "",
+			"duration" : "3:55"
+		},
+		{
+			"id" : "song_008",
+			"title" : "Śrī Śāradāstavakadambam\nBālacandra",
+			"writer" : "Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "10:18"
+		},
+		{
+			"id" : "song_009",
+			"title" : "Śrī Vāṇīśaraṇagatistōtram\nVēṇīṃ",
+			"writer" : "",
+			"duration" : "1:24"
+		},
+		{
+			"id" : "song_010",
+			"title" : "Namō Namastē Gīrvāṇī",
+			"writer" : "",
+			"duration" : "2:55"
+		},
+		{
+			"id" : "song_011",
+			"title" : "Śrī Śāradāstutiḥ\nSarasvati Kṛpānidhē",
+			"writer" : "",
+			"duration" : "2:00"
+		},
+		{
+			"id" : "song_012",
+			"title" : "Sarasvatyā Bhagavatyā Saṃrakṣitōhaṃ",
+			"writer" : "",
+			"duration" : "4:49"
+		},
+		{
+			"id" : "song_013",
+			"title" : "Śrī Vāṇīśaraṇagatistōtram\nBalōḍupa",
+			"writer" : "",
+			"duration" : "1:17"
+		},
+		{
+			"id" : "song_014",
+			"title" : "Śarāvati Taṭavāsinī",
+			"writer" : "",
+			"duration" : "2:27"
+		},
+		{
+			"id" : "song_015",
+			"title" : "Śrī Śāradāstavakadambam\nMudrāpustakamālikā",
+			"writer" : "Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "6:03"
+		},
+		{
+			"id" : "song_016",
+			"title" : "Vidyā Mudrākṣamālā",
+			"writer" : "Śrī Śrī Bhāratī Tīrtha Mahāsvāmigaḷ",
+			"duration" : "1:27"
+		}
+	]
+}

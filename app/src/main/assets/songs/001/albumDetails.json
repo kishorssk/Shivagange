@@ -1,0 +1,68 @@
+{
+	"info" : {
+		"vocals" : "Smt. Bombay Jayashri",
+		"director" : "Shri. R. K. Shriramkumar",
+		"producer" : "The Chityala Family; New York",
+		"music" :	{
+			"violin" : "Shri. R. K. Shriramkumar",
+			"mridangam" : "Shri. N Manoj Siva",
+			"Kanjira" : "Shri. Anirudh Athreya"
+		}
+	},
+	"songs" : [
+		{
+			"id" : "song_001",
+			"title" : "Invocatory verse from Śrī Ganēśa Stuti Mañjarī",
+			"writer" : "Śrī Śrī Candraśēkhara Bhāratī Mahāsvāmigaḷ",
+			"duration" : "1:31"
+		},
+		{
+			"id" : "song_002",
+			"title" : "Śrī Śāradā Gītam\nBhagavati Bhavasōdari",
+			"writer" : "Śrī Śrī Candraśēkhara Bhāratī Mahāsvāmigaḷ",
+			"duration" : "3:19"
+		},
+		{
+			"id" : "song_003",
+			"title" : "Śrī Śāradā Gītam\nVidhimukhāmbhōjahaṃsi",
+			"writer" : "Śrī Śrī Candraśēkhara Bhāratī Mahāsvāmigaḷ",
+			"duration" : "6:00"
+		},
+		{
+			"id" : "song_004",
+			"title" : "Śrī Śāradā Gītam\nŚāradē Karunānidhē",
+			"writer" : "Śrī Śrī Candraśēkhara Bhāratī Mahāsvāmigaḷ",
+			"duration" : "6:33"
+		},
+		{
+			"id" : "song_005",
+			"title" : "Śrī Śāradā Bhujaṅgaprayātāṣṭakam",
+			"writer" : "Śrī Ādi Śaṅkara Bhagavatpāda",
+			"duration" : "8:47"
+		},
+		{
+			"id" : "song_006",
+			"title" : "Śrī Śāradā Svarṇaratha Samarpaṇa Padyāvaliḥ",
+			"writer" : "Śrī Śrī Bhāratī Tīrtha Mahāsvāmigaḷ",
+			"duration" : "3:56"
+		},
+		{
+			"id" : "song_007",
+			"title" : "Śrī Kamalajadayitāṣṭakam",
+			"writer" : "Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "14:41"
+		},
+		{
+			"id" : "song_008",
+			"title" : "Śrī Śāradāvarṇamālāstavaḥ",
+			"writer" : "Śrī Śrī Candraśēkhara Bhāratī Mahāsvāmigaḷ",
+			"duration" : "11:18"
+		},
+		{
+			"id" : "song_009",
+			"title" : "Śrī Śāradā Gītam\nMaṅgalaṃ Varaṛṣyaśṛṅga nagara vāsini",
+			"writer" : "Śrī Śrī Candraśēkhara Bhāratī Mahāsvāmigaḷ",
+			"duration" : "2:25"
+		}
+	]
+}

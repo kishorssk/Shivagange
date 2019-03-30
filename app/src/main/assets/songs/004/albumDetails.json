@@ -1,0 +1,59 @@
+{
+	"info" : {
+		"vocals" : "Sringeri Sisters; Smt. Sharada and Smt. Srilakshmi",
+		"director" : "Sringeri Asthana Vidwan; Shri T. S. Anantharama Bhagavathar; Mumbai",
+		"producer" : "Sri Bharati Tirtha Trust, Sringeri",
+		"music" : {
+			"veena" : "Smt. Hemalata Veeramani",
+			"violin" : "Shri. Shivkumar A and Smt. B. Shanta",
+			"mridangam" : "Shri. S. Shankaranarayan",
+			"tabala" : "Master Mahesh",
+			"Casio" : "Shri. Syamsunder K. S",
+			"Flute" : "Smt. Hema Balasubramaniam"
+		}
+	},
+	"songs" : [
+		{
+			"id" : "song_001",
+			"title" : "Śrī Gurudhyānam",
+			"writer" : "Śrī Śrī Bhāratī Tīrtha Mahāsvāmigaḷ",
+			"duration" : "6:27"
+		},
+		{
+			"id" : "song_002",
+			"title" : "Śrī Subrahmanyēśvaragītam",
+			"writer" : "Śrī Śrī Bhāratī Tīrtha Mahāsvāmigaḷ",
+			"duration" : "6:21"
+		},
+		{
+			"id" : "song_003",
+			"title" : "Bhaja Rē Lōkaguruṃ",
+			"writer" : "Śrī Śrī Bhāratī Tīrtha Mahāsvāmigaḷ",
+			"duration" : "6:01"
+		},
+		{
+			"id" : "song_004",
+			"title" : "Śaṅkaradēśika Māmava",
+			"writer" : "Śrī Śrī Bhāratī Tīrtha Mahāsvāmigaḷ",
+			"duration" : "6:43"
+		},
+		{
+			"id" : "song_005",
+			"title" : "Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Aṣṭakam",
+			"writer" : "Śrī Śrī Bhāratī Tīrtha Mahāsvāmigaḷ",
+			"duration" : "12:37"
+		},
+		{
+			"id" : "song_006",
+			"title" : "Dharma Śāsta Stōtram",
+			"writer" : "Śrī Śrī Bhāratī Tīrtha Mahāsvāmigaḷ",
+			"duration" : "12:04"
+		},
+		{
+			"id" : "song_007",
+			"title" : "Śrīśaṅkarācāryavaryam",
+			"writer" : "Śrī Śrī Bhāratī Tīrtha Mahāsvāmigaḷ",
+			"duration" : "3:39"
+		}
+	]
+}

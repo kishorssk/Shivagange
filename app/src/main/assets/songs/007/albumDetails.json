@@ -1,0 +1,57 @@
+{
+	"info" : {
+		"vocals" : "Sringeri Sisters; Smt. Sharada Ramanan, Kum T. Srilakshmi, Kum S. Bharati",
+		"director" : "Shri. R. K. Shriramkumar",
+		"producer" : "The Chityala Family; New York",
+		"music" : {
+			"violin" : "Shri. R. K. Shriramkumar",
+			"flute" : "Shri. B. Balasai",
+			"veena" : "Shri. B. Kannan",
+			"mridangam" : "Shri. N Manoj Siva"
+			}
+	},
+	"songs" : [
+		{
+			"id" : "song_001",
+			"title" : "Śrī Śaṃbhustavaḥ",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "4:04"
+		},
+		{
+			"id" : "song_002",
+			"title" : "Śrī Kanyākumārī Pañcaratna Stutiḥ",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "4:31"
+		},
+		{
+			"id" : "song_003",
+			"title" : "Śrī Śiva Stuti Kadambam",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "25:14"
+		},
+		{
+			"id" : "song_004",
+			"title" : "Śrī Rājarājēśvarī Ṣōḍaśī",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "18:06"
+		},
+		{
+			"id" : "song_005",
+			"title" : "Śrī Dēvī Navaratnamālikā Stōtram",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "7:09"
+		},
+		{
+			"id" : "song_006",
+			"title" : "Śrī Nṛsiṃha Bhujaṅga Prayāta Stavaḥ",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "10:20"
+		},
+		{
+			"id" : "song_007",
+			"title" : "Śrī Lalitāmbāparamēśvara Stavaḥ",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "6:43"
+		}
+	]
+}

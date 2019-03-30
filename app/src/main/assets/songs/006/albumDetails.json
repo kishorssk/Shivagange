@@ -1,0 +1,82 @@
+{
+	"info" : {
+		"vocals" : "Sringeri Sisters; Smt. Sharada Ramanan, Kum T. Srilakshmi, Kum S. Bharati",
+		"director" : "Shri. R. K. Shriramkumar",
+		"producer" : "The Chityala Family; New York",
+		"music" : {
+			"violin" : "Shri. R. K. Shriramkumar",
+			"flute" : "Shri. B. Balasai",
+			"veena" : "Shri. B. Kannan",
+			"mridangam" : "Shri. N Manoj Siva",
+			"Tabla" : "Shri. B, Ganesh Rao"
+		}
+	},
+	"songs" : [
+		{
+			"id" : "song_001",
+			"title" : "Śrī Mahāgaṇēśa Pañcaratna Stōtram",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "6:39"
+		},
+		{
+			"id" : "song_002",
+			"title" : "Śrī Gaṇādhipa Stutiḥ",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "3:01"
+		},
+		{
+			"id" : "song_003",
+			"title" : "Śrī Vināyaka Stutiḥ",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "2:12"
+		},
+		{
+			"id" : "song_004",
+			"title" : "Śrī Kārtikeya Stōtra Kadambam",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "11:05"
+		},
+		{
+			"id" : "song_005",
+			"title" : "Śrī Dēvīdhāmāṣṭakam",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "5:21"
+		},
+		{
+			"id" : "song_006",
+			"title" : "Śrī Candramauliśa Stōtram",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "5:14"
+		},
+		{
+			"id" : "song_007",
+			"title" : "Śrīmad Ṛṣyaśṛṅgēśvara Stutiḥ",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "2:43"
+		},
+		{
+			"id" : "song_008",
+			"title" : "Śrīkaṇṭhāṣṭakam",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "5:23"
+		},
+		{
+			"id" : "song_009",
+			"title" : "Śrī Daṇḍapāni Pañcaratnam",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "4:13"
+		},
+		{
+			"id" : "song_010",
+			"title" : "Śrī Kālāntakāṣṭakam",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "5:05"
+		},
+		{
+			"id" : "song_011",
+			"title" : "Śrī Subrahmaṇyabhujaṅgaprayāta Stutiḥ",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "10:02"
+		}
+	]
+}

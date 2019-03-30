@@ -1,0 +1,51 @@
+{
+	"info" : {
+		"vocals" : "Sringeri Sisters; Smt. Sharada Ramanan, Kum T. Srilakshmi, Kum S. Bharati",
+		"director" : "Shri. R. K. Shriramkumar",
+		"producer" : "The Chityala Family; New York",
+		"music" : {
+			"violin" : "Shri. R. K. Shriramkumar",
+			"flute" : "Shri. B. Balasai",
+			"veena" : "Shri. B. Kannan",
+			"mridangam" : "Shri. N Manoj Siva"
+			}
+	},
+	"songs" : [
+		{
+			"id" : "song_001",
+			"title" : "Śrī Kṛṣṇa Ṣaṭkam",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "4:08"
+		},
+		{
+			"id" : "song_002",
+			"title" : "Śrī Nṛsiṃha Saptakam",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "5:59"
+		},
+		{
+			"id" : "song_003",
+			"title" : "Śrī Padmanābha Stōtram",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "18:59"
+		},
+		{
+			"id" : "song_004",
+			"title" : "Śrī Hanūmat Caturviṃśatiḥ",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "16:09"
+		},
+		{
+			"id" : "song_005",
+			"title" : "Bhavabandhamukti Aṣṭakam",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "7:54"
+		},
+		{
+			"id" : "song_006",
+			"title" : "Śrī Dattātrēya Stavaḥ",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "20:56"
+		}
+	]
+}

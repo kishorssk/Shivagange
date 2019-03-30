@@ -1,0 +1,20 @@
+{
+	"info" : {
+		"vocals" : "",
+		"director" : "",
+		"producer" : "",
+		"music" :	{
+			"violin" : "",
+			"mridangam" : "",
+			"Kanjira" : ""
+		}
+	},
+	"songs" : [
+		{
+			"id" : "song_001",
+			"title" : "Sri Ganapati Stotram",
+			"writer" : "Śrī Śrī Candraśēkhara Bhāratī Mahāsvāmigaḷ",
+			"duration" : "6:32"
+		}
+	]
+}

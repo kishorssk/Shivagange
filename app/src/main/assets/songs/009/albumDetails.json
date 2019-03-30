@@ -1,0 +1,48 @@
+{
+	"info" : {
+		"vocals" : "Sringeri Sisters; Smt. Sharada Ramanan; Smt. Srilakshmi Vishwanath; Kum. S. Bharati",
+		"director" : "Shri R.K. Shriramkumar",
+		"producer" : "The Chityala Family; New York",
+		"music" : {
+			"violin" : ""
+		}
+	},
+	"songs" : [
+		{
+			"id" : "song_001",
+			"title" : "Pādāvalambanastutiḥ",
+			"writer" : "Śrī Śrī Candraśēkhara Bhāratī Mahāsvāmigaḷ",
+			"duration" : "10:28"
+		},
+		{
+			"id" : "song_002",
+			"title" : "Dēśikōtkarṣamañjarī",
+			"writer" : "Śrī Śrī Candraśēkhara Bhāratī Mahāsvāmigaḷ",
+			"duration" : "13:21"
+		},
+		{
+			"id" : "song_003",
+			"title" : "Guruprārthanāstōtraṃ",
+			"writer" : "Śrī Śrī Candraśēkhara Bhāratī Mahāsvāmigaḷ",
+			"duration" : "11:37"
+		},
+		{
+			"id" : "song_004",
+			"title" : "Śrīmadāchāryēndrastavaṃ",
+			"writer" : "Śrī Śrī Candraśēkhara Bhāratī Mahāsvāmigaḷ",
+			"duration" : "7:44"
+		},
+		{
+			"id" : "song_005",
+			"title" : "Navaratnamālā",
+			"writer" : "Śrī Śrī Candraśēkhara Bhāratī Mahāsvāmigaḷ",
+			"duration" : "5:30"
+		},
+		{
+			"id" : "song_006",
+			"title" : "Gurusuvarṇamālāstōtraṃ",
+			"writer" : "Śrī Śrī Candraśēkhara Bhāratī Mahāsvāmigaḷ",
+			"duration" : "18:06"
+		}
+	]
+}

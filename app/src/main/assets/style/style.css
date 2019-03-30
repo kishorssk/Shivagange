@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'Sanskrit2003';
+	src: url('../fonts/sanskrit2003.ttf');
+	unicode-range: U+0900-097F, U+A8E0-A8FF, U+1CD0-1CFF;
+}
+html{
+    padding: 0.5em;
+    font-family: "Sanskrit2003";
+}
+p{
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}

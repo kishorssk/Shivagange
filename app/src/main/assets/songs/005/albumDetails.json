@@ -1,0 +1,54 @@
+{
+	"info" : {
+		"vocals" : "Sringeri Sisters; Smt. Sharada and Smt. Srilakshmi",
+		"director" : "Sringeri Asthana Vidwan; Shri T. S. Anantharama Bhagavathar; Mumbai",
+		"producer" : "Sri Bharati Tirtha Trust, Sringeri",
+		"music" : {
+			"violin" : "Shiv Kumar",
+			"keyboard" : "Prem Kumar",
+			"saxophone" : "S. Manikanthan",
+			"mridangam" : "Dr. Sriram Suryanarayan",
+			"thavil" : "k. S. Balamurugan",
+			"tabala" : "Srikant M. Railkar",
+			"edakka" : "Parameshwaran"
+		}
+	},
+	"songs" : [
+		{
+			"id" : "song_001",
+			"title" : "Ganēśāṣṭakaṃ",
+			"writer" : "",
+			"duration" : "11:16"
+		},
+		{
+			"id" : "song_002",
+			"title" : "Śivapañcaratnastutiḥ",
+			"writer" : "",
+			"duration" : "8:12"
+		},
+		{
+			"id" : "song_003",
+			"title" : "Naṭēśāṣṭakaṃ",
+			"writer" : "",
+			"duration" : "11:19"
+		},
+		{
+			"id" : "song_004",
+			"title" : "Gauryaṣṭakaṃ",
+			"writer" : "",
+			"duration" : "8:32"
+		},
+		{
+			"id" : "song_005",
+			"title" : "Ambāṣṭakaṃ",
+			"writer" : "",
+			"duration" : "8:56"
+		},
+		{
+			"id" : "song_006",
+			"title" : "Naṭarājāṣṭakaṃ",
+			"writer" : "",
+			"duration" : "7:57"
+		}
+	]
+}

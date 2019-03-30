@@ -1,0 +1,53 @@
+{
+	"info" : {
+		"vocals" : "Sringeri Sisters; Smt. Sharada and Smt. Srilakshmi",
+		"director" : "Sringeri Asthana Vidwan; Shri T. S. Anantharama Bhagavathar; Mumbai",
+		"producer" : "Sri Bharati Tirtha Trust, Sringeri",
+		"music" : {
+			"veena" : "Smt. Hemalata Veeramani",
+			"violin" : "Shri. Shivkumar A and Smt. B. Shanta",
+			"mridangam" : "Shri. S. Shankaranarayan",
+			"tabala" : "Shri. Pravin Karkare",
+			"keyboard" : "Shri. Sandeep K. S.",
+			"flute" : "Smt. Hema Balasubramaniam"
+		}
+	},
+	"songs" : [
+		{
+			"id" : "song_001",
+			"title" : "Vandē Dēvaṃ - Pranamāmi Gaṇēśvaraṃ",
+			"writer" : "Śrī Śrī Bhāratī Tīrtha Mahāsvāmigaḷ",
+			"duration" : "8:10"
+		},
+		{
+			"id" : "song_002",
+			"title" : "Śrīśāradāmbaṃ Bhajē",
+			"writer" : "Śrī Śrī Bhāratī Tīrtha Mahāsvāmigaḷ",
+			"duration" : "6:04"
+		},
+		{
+			"id" : "song_003",
+			"title" : "Śrīśaṅkarācāryastavaḥ",
+			"writer" : "Śrī Śrī Bhāratī Tīrtha Mahāsvāmigaḷ",
+			"duration" : "13:08"
+		},
+		{
+			"id" : "song_004",
+			"title" : "Śrīśaṅkarācāryaṃ Bhaja Rē",
+			"writer" : "Śrī Śrī Bhāratī Tīrtha Mahāsvāmigaḷ",
+			"duration" : "4:59"
+		},
+		{
+			"id" : "song_005",
+			"title" : "Śrīcandramaulīśvara Varnamālā Stutiḥ",
+			"writer" : "Śrī Śrī Bhāratī Tīrtha Mahāsvāmigaḷ",
+			"duration" : "10:44"
+		},
+		{
+			"id" : "song_006",
+			"title" : "Dāśarathē Māṃ Pālaya",
+			"writer" : "Śrī Śrī Bhāratī Tīrtha Mahāsvāmigaḷ",
+			"duration" : "10:28"
+		}
+	]
+}

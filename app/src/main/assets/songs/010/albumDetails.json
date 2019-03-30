@@ -1,0 +1,103 @@
+{
+	"info" : {
+		"vocals" : "Smt. Sharada Ramanan; Kum. Bharati",
+		"director" : "Sri. R. K. Shriramkumar",
+		"producer" : "",
+		"music" : {
+			"Violin" : "Sri. R. K. Shriramkumar",
+			"Mridangam" : "Sri. K. Arunprakash",
+			"Ghatam" : "Sri. N Guruprasad",
+			"Flute" : "Sri. J. B. Sruthisagar"
+		}
+	},
+	"songs" : [
+		{
+			"id" : "song_001",
+			"title" : "Śrī Gurucaraṇakusumāñjalī",
+			"writer" : "Śrī Ānandatāṇḍavapuraṃ Rāmadāsar",
+			"vocals" : "Smt. Sharada Ramanan; Kum. Bharati; and Smt. Roopa Shashidhara",
+			"duration" : "8:00"
+		},
+		{
+			"id" : "song_002",
+			"title" : "Bhajisu Biḍade Gurunāthana",
+			"writer" : "Vēdānta Śrī Śivarāma Śāstrī",
+			"vocals" : "Smt. Sharada Ramanan; Kum. Bharati; and Smt. Roopa Shashidhara",
+			"duration" : "3:22"
+		},
+		{
+			"id" : "song_003",
+			"title" : "Gurudēva Nīnōrva",
+			"writer" : "Vēdānta Śrī Śivarāma Śāstrī",
+			"vocals" : "Smt. Sharada Ramanan; Kum. Bharati; and Smt. Roopa Shashidhara",
+			"duration" : "3:26"
+		},
+		{
+			"id" : "song_004",
+			"title" : "Guruvē Gatiyennu Manavē",
+			"writer" : "Vēdānta Śrī Śivarāma Śāstrī",
+			"vocals" : "Smt. Sharada Ramanan; Kum. Bharati; and Smt. Roopa Shashidhara",
+			"duration" : "3:51"
+		},
+		{
+			"id" : "song_005",
+			"title" : "Maṅgalam Guruśaṅkara",
+			"writer" : "Vēdānta Śrī Śivarāma Śāstrī",
+			"duration" : "2:38"
+		},
+		{
+			"id" : "song_006",
+			"title" : "Garuḍagamana Tava Caraṇakamalamiha",
+			"writer" : "Śrī Śrī Bhāratī Tīrtha Mahāsvāmigaḷ",
+			"duration" : "3:38"
+		},
+		{
+			"id" : "song_007",
+			"title" : "Jaya Dēva - Śrī Śrī Abhinava Vidyātīrtha Mahāsvāmigaḷ",
+			"writer" : "",
+			"duration" : "3:09"
+		},
+		{
+			"id" : "song_008",
+			"title" : "Jaya Dēva - Śrī Śrī Bhāratī Tīrtha Mahāsvāmigaḷ",
+			"writer" : "",
+			"duration" : "3:15"
+		},
+		{
+			"id" : "song_009",
+			"title" : "Sadāśivāṣṭakaṃ",
+			"writer" : "",
+			"duration" : "6:24"
+		},
+		{
+			"id" : "song_010",
+			"title" : "Śivaśaśaṅkarāṣṭakaṃ",
+			"writer" : "",
+			"duration" : "7:02"
+		},
+		{
+			"id" : "song_011",
+			"title" : "Śrī Candramaulīśvara stutiḥ",
+			"writer" : "",
+			"duration" : "7:44"
+		},
+		{
+			"id" : "song_012",
+			"title" : "Sāmbāṣṭakaṃ",
+			"writer" : "",
+			"duration" : "5:23"
+		},
+		{
+			"id" : "song_013",
+			"title" : "Upamanyukṛtaśivastōtraṃ",
+			"writer" : "",
+			"duration" : "6:34"
+		},
+		{
+			"id" : "song_014",
+			"title" : "Dakṣiṇāmūrtistōtraṃ",
+			"writer" : "",
+			"duration" : "5:45"
+		}
+	]
+}

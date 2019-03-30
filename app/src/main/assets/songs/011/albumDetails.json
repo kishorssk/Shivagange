@@ -1,0 +1,105 @@
+{
+	"info" : {
+		"vocals" : "Shri T. M. Krishna & Smt. Sangeetha Sivakumar",
+		"director" : "",
+		"producer" : "The Chityala Family; New York",
+		"music" : {
+			"violin" : "Shri. R. K. Shriramkumar",
+			"flute" : "Smt. Mala Chandrasekars",
+			"mridangam" : "Shri N Manoj Siva",
+			"Kanjira" : "Shri B. S. Purushotham"
+		}
+	},
+	"songs" : [
+		{
+			"id" : "song_001",
+			"title" : "Benediction by H.H. Śrī Śrī Bhāratī Tīrtha Mahāsvāmigaḷ (Telugu)",
+			"writer" : "",
+			"duration" : "3:10"
+		},
+		{
+			"id" : "song_002",
+			"title" : "Benediction by H.H. Śrī Śrī Bhāratī Tīrtha Mahāsvāmigaḷ (Tamil)",
+			"writer" : "",
+			"duration" : "3:45"
+		},
+		{
+			"id" : "song_003",
+			"title" : "Benediction by H.H. Śrī Śrī Bhāratī Tīrtha Mahāsvāmigaḷ (Kannada)",
+			"writer" : "",
+			"duration" : "3:01"
+		},
+		{
+			"id" : "song_004",
+			"title" : "Sadāśivēndra Pañcaratna Stōtram",
+			"writer" : "Śrī Śrī Saccidānanda Śivābhinava Nṛsiṃha Bhāratī Mahāsvāmigaḷ",
+			"duration" : "4:13"
+		},
+		{
+			"id" : "song_005",
+			"title" : "Brūhi Mukundēti",
+			"writer" : "Śrī Sadāśivēndra Sarasvatī Mahāsvāmigaḷ",
+			"duration" : "8:59"
+		},
+		{
+			"id" : "song_006",
+			"title" : "Sarvaṃ Brahmamayam",
+			"writer" : "Śrī Sadāśivēndra Sarasvatī Mahāsvāmigaḷ",
+			"duration" : "6:15"
+		},
+		{
+			"id" : "song_007",
+			"title" : "Tungātaraṅgē Gaṅgē",
+			"writer" : "Śrī Sadāśivēndra Sarasvatī Mahāsvāmigaḷ",
+			"duration" : "4:23"
+		},
+		{
+			"id" : "song_008",
+			"title" : "Bhajarē Gōpālam",
+			"writer" : "Śrī Sadāśivēndra Sarasvatī Mahāsvāmigaḷ",
+			"duration" : "6:50"
+		},
+		{
+			"id" : "song_009",
+			"title" : "Piba Rē Rāmarasam",
+			"writer" : "Śrī Sadāśivēndra Sarasvatī Mahāsvāmigaḷ",
+			"duration" : "5:39"
+		},
+		{
+			"id" : "song_010",
+			"title" : "Nahirē Nahi Śaṅkā",
+			"writer" : "Śrī Sadāśivēndra Sarasvatī Mahāsvāmigaḷ",
+			"duration" : "5:21"
+		},
+		{
+			"id" : "song_011",
+			"title" : "Mānasa Sañcara Rē",
+			"writer" : "Śrī Sadāśivēndra Sarasvatī Mahāsvāmigaḷ",
+			"duration" : "5:46"
+		},
+		{
+			"id" : "song_012",
+			"title" : "Smara Vāraṃvāraṃ",
+			"writer" : "Śrī Sadāśivēndra Sarasvatī Mahāsvāmigaḷ",
+			"duration" : "6:18"
+		},
+		{
+			"id" : "song_013",
+			"title" : "Cintā Nāsti Kila",
+			"writer" : "Śrī Sadāśivēndra Sarasvatī Mahāsvāmigaḷ",
+			"duration" : "6:23"
+		},
+		{
+			"id" : "song_014",
+			"title" : "Gāyati Vanamālī",
+			"writer" : "Śrī Sadāśivēndra Sarasvatī Mahāsvāmigaḷ",
+			"duration" : "7:34"
+		},
+		{
+			"id" : "song_015",
+			"title" : "Bhaja Rē Yadunāthaṃ",
+			"writer" : "Śrī Sadāśivēndra Sarasvatī Mahāsvāmigaḷ",
+			"duration" : "5:36"
+		}														
+	]
+}
