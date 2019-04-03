@@ -87,7 +87,7 @@ public class SongsAdapter extends RecyclerView.Adapter<SongsAdapter.MyViewHolder
 
     public boolean isLocalFileAvailable (String pSongID) {
 
-        File downloadDir = Utility.getAlbumStorageDir(mContext, "Tungalahari");
+        File downloadDir = Utility.getAlbumStorageDir(mContext, "Shivagange");
         String mSongIdPath = pSongID.replace("song_", "").replace("_", "/");
         String filePath = downloadDir.getPath().concat("/" + mSongIdPath + "/index.mp3");
 
