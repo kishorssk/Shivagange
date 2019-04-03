@@ -1,4 +1,4 @@
-package com.srirangadigital.tungalahari;
+package com.srirangadigital.shivagange;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

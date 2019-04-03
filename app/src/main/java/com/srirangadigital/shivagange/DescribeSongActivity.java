@@ -1,4 +1,4 @@
-package com.srirangadigital.tungalahari;
+package com.srirangadigital.shivagange;
 
 import android.app.ActivityManager;
 import android.app.DownloadManager;
@@ -118,7 +118,7 @@ public class DescribeSongActivity extends AppCompatActivity implements View.OnCl
 
         seekBar = (SeekBar) findViewById(R.id.seek_bar);
 
-        downloadDir = Utility.getAlbumStorageDir(this, "Tungalahari");
+        downloadDir = Utility.getAlbumStorageDir(this, "Shivagange");
         filePath = downloadDir.getPath().concat("/" + mSongId + "/index.mp3");
         filePathAbsolute = downloadDir.getAbsolutePath().concat("/" + mSongId + "/index.mp3");
 
