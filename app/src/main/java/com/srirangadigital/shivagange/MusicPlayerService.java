@@ -99,7 +99,7 @@ public class MusicPlayerService extends Service implements OnClickListener,
 
                 if(isPause) {
 
-                    initNotification("Playing (Tungalahari)...", this);
+                    initNotification("Playing (Shivagange)...", this);
                     mp.start();
                     isPause = false;
                     updateProgressBar();
@@ -153,7 +153,7 @@ public class MusicPlayerService extends Service implements OnClickListener,
 
         try {
 
-            initNotification("Playing (Tungalahari)...", this);
+            initNotification("Playing (Shivagange)...", this);
             mp.start();
             updateProgressBar();
             btnPlay.get().setBackgroundResource(R.drawable.pause);
