@@ -28,14 +28,21 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    private String mAlbumId;
+
     private RecyclerView recyclerView;
     private AlbumsAdapter adapter;
     private List<Album> albumList;
+    private List<Song> songList;
+    private SongsAdapter songadpter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -45,6 +52,9 @@ public class MainActivity extends AppCompatActivity {
 
         albumList = new ArrayList<>();
         adapter = new AlbumsAdapter(this, albumList);
+
+        songList = new ArrayList<>();
+        songadpter = new SongsAdapter(this,songList );
 
         RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(this, 2);
         recyclerView.setLayoutManager(mLayoutManager);
@@ -68,9 +78,15 @@ public class MainActivity extends AppCompatActivity {
                 public void onItemClick(View view, int position) {
                     // do whatever
 
-                    Intent songIntent = new Intent(view.getContext(), DescribeAlbumActivity.class);
+                    Intent songIntent = new Intent(view.getContext(), DescribeSongActivity.class);
                     songIntent.putExtra("albumId", albumList.get(position).getId());
+                    mAlbumId = albumList.get(position).getId();
+                    prepareSongs();
                     songIntent.putExtra("albumTitle", albumList.get(position).getTitle());
+                    songIntent.putExtra("songId", songList.get(position).getId());
+                    songIntent.putExtra("songTitle", songList.get(position).getTitle());
+                    songIntent.putExtra("songSinger", songList.get(position).getSinger());
+                    songIntent.putExtra("songWriter", songList.get(position).getWriter());
                     startActivity(songIntent);
                 }
 
@@ -137,6 +153,37 @@ public class MainActivity extends AppCompatActivity {
         }
         adapter.notifyDataSetChanged();
     }
+
+    private void prepareSongs() {
+
+        String albumID = mAlbumId.replace("album_", "");
+
+        JSONObject albumDetails = JsonOperator.loadJSONObjectFromAsset(recyclerView.getContext(), "albums/" + albumID + "/albumDetails.json");
+
+        try {
+
+            JSONArray songsList = albumDetails.getJSONArray("songs");
+            JSONObject info = albumDetails.getJSONObject("info");
+
+            String albumSinger = info.getString("vocals");
+
+            for (int i = 0; i < songsList.length(); i++) {
+
+                JSONObject song = songsList.getJSONObject(i);
+
+                String singer = (song.has("vocals")) ? song.getString("vocals") : albumSinger;
+
+                String id = song.getString("id").replace("song_", "song_" + albumID + "_");
+                songList.add(new Song(id, song.getString("title"), singer, song.getString("writer"), song.getString("duration")));
+            }
+
+        } catch (JSONException e) {
+
+            e.printStackTrace();
+        }
+        songadpter.notifyDataSetChanged();
+    }
+
 
     /**
      * RecyclerView item decoration - give equal margin around grid item
