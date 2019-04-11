@@ -28,12 +28,12 @@
             android:name=".MusicPlayerService"
             android:stopWithTask="true" />
 
-        <activity
-            android:name=".DescribeAlbumActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+        <!--<activity-->
+            <!--android:name=".DescribeAlbumActivity"-->
+            <!--android:label="@string/app_name"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme.NoActionBar">-->
+        <!--</activity>-->
         <activity
             android:name=".DescribeSongActivity"
             android:label="@string/app_name"
