@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".About">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/home_page_h1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/home_page_header"
+            android:textAlignment="center" />
+
+
+        <TextView
+            android:id="@+id/aboutText1"
+            style="@style/home_page_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_para1" />
+
+        <TextView
+            android:id="@+id/aboutText2"
+            style="@style/home_page_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_para2" />
+
+        <Button
+            android:id="@+id/btn_Speech"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playIT"
+            android:text="Swamiji speech"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+    </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

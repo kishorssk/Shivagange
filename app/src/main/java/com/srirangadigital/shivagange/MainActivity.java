@@ -11,10 +11,12 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
@@ -28,33 +30,41 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private String mAlbumId;
+    //private String mAlbumId;
+
+    TextView textView;
 
     private RecyclerView recyclerView;
     private AlbumsAdapter adapter;
     private List<Album> albumList;
-    private List<Song> songList;
-    private SongsAdapter songadpter;
+//    private List<Song> songList;
+//    private SongsAdapter songadapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         initCollapsingToolbar();
+
+        textView = (TextView)findViewById(R.id.txt_About);
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, About.class);
+                startActivity(intent);
+            }
+        });
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
 
         albumList = new ArrayList<>();
         adapter = new AlbumsAdapter(this, albumList);
 
-        songList = new ArrayList<>();
-        songadpter = new SongsAdapter(this,songList );
+//        songList = new ArrayList<>();
+//        songadapter = new SongsAdapter(this,songList );
 
         RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(this, 2);
         recyclerView.setLayoutManager(mLayoutManager);
@@ -72,30 +82,39 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView.addOnItemTouchListener(
 
-            new RecyclerItemClickListener(recyclerView.getContext(), recyclerView, new RecyclerItemClickListener.OnItemClickListener() {
+                new RecyclerItemClickListener(recyclerView.getContext(), recyclerView, new RecyclerItemClickListener.OnItemClickListener() {
 
-                @Override
-                public void onItemClick(View view, int position) {
-                    // do whatever
+                    @Override
+                    public void onItemClick(View view, int position) {
 
-                    Intent songIntent = new Intent(view.getContext(), DescribeSongActivity.class);
-                    songIntent.putExtra("albumId", albumList.get(position).getId());
-                    mAlbumId = albumList.get(position).getId();
-                    prepareSongs();
-                    songIntent.putExtra("albumTitle", albumList.get(position).getTitle());
-                    songIntent.putExtra("songId", songList.get(position).getId());
-                    songIntent.putExtra("songTitle", songList.get(position).getTitle());
-                    songIntent.putExtra("songSinger", songList.get(position).getSinger());
-                    songIntent.putExtra("songWriter", songList.get(position).getWriter());
-                    startActivity(songIntent);
-                }
+                        // do whatever
 
-                @Override
-                public void onLongItemClick(View view, int position) {
-                    // Reserved for long clicks
-                }
-            })
+                        Intent songIntent = new Intent(view.getContext(), DescribeAlbumActivity.class);
+                        songIntent.putExtra("albumId", albumList.get(position).getId());
+                      //  mAlbumId = albumList.get(position).getId();
+                    //    prepareSongs();
+
+                         songIntent.putExtra("albumTitle", albumList.get(position).getTitle());
+//                        Log.d("song",position + "");
+//                        songIntent.putExtra("songId", songList.get(position).getId());
+//                        Log.d("songIntent",songIntent + "");
+//                        songIntent.putExtra("songTitle", songList.get(position).getTitle());
+//                        songIntent.putExtra("songSinger", songList.get(position).getSinger());
+//                        songIntent.putExtra("songWriter", songList.get(position).getWriter());
+
+                        startActivity(songIntent);
+                    }
+
+
+                    @Override
+                    public void onLongItemClick(View view, int position) {
+                        // Reserved for long clicks
+                    }
+
+                })
         );
+
+
     }
 
     /**
@@ -154,35 +173,37 @@ public class MainActivity extends AppCompatActivity {
         adapter.notifyDataSetChanged();
     }
 
-    private void prepareSongs() {
-
-        String albumID = mAlbumId.replace("album_", "");
-
-        JSONObject albumDetails = JsonOperator.loadJSONObjectFromAsset(recyclerView.getContext(), "albums/" + albumID + "/albumDetails.json");
-
-        try {
-
-            JSONArray songsList = albumDetails.getJSONArray("songs");
-            JSONObject info = albumDetails.getJSONObject("info");
-
-            String albumSinger = info.getString("vocals");
-
-            for (int i = 0; i < songsList.length(); i++) {
-
-                JSONObject song = songsList.getJSONObject(i);
-
-                String singer = (song.has("vocals")) ? song.getString("vocals") : albumSinger;
-
-                String id = song.getString("id").replace("song_", "song_" + albumID + "_");
-                songList.add(new Song(id, song.getString("title"), singer, song.getString("writer"), song.getString("duration")));
-            }
-
-        } catch (JSONException e) {
-
-            e.printStackTrace();
-        }
-        songadpter.notifyDataSetChanged();
-    }
+//    private void prepareSongs() {
+//
+//        String albumID = mAlbumId.replace("album_", "");
+//
+//        JSONObject albumDetails = JsonOperator.loadJSONObjectFromAsset(recyclerView.getContext(), "albums/" + albumID + "/albumDetails.json");
+//
+//        try {
+//
+//            JSONArray songsList = albumDetails.getJSONArray("songs");
+//            Log.d("song",songsList + "");
+//            JSONObject info = albumDetails.getJSONObject("info");
+//
+//            String albumSinger = info.getString("vocals");
+//
+//            for (int i = 0; i < songsList.length(); i++) {
+//
+//                JSONObject song = songsList.getJSONObject(i);
+//
+//                String singer = (song.has("vocals")) ? song.getString("vocals") : albumSinger;
+//
+//                String id = song.getString("id").replace("song_", "song_" + albumID + "_");
+//                Log.d("songID", id + "");
+//                songList.add(new Song(id, song.getString("title"), singer, song.getString("writer"), song.getString("duration")));
+//            }
+//
+//        } catch (JSONException e) {
+//
+//            e.printStackTrace();
+//        }
+//        songadapter.notifyDataSetChanged();
+//    }
 
 
     /**

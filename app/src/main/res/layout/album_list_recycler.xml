@@ -54,6 +54,15 @@
                 android:text="@string/home_page_para3"
                 style="@style/home_page_last_p"/>
 
+            <TextView
+                android:id="@+id/txt_About"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About"
+                style="@style/home_page_last_p"
+                />
+
+
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
